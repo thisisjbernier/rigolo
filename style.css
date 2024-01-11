@@ -12,14 +12,14 @@
 	overflow: hidden;
 }
 
-.tb{
+.topbar{
 	background: #2c3e50;
 	position: relative;
 	text-align: center;
 	color: #ffffff;	
 }
 
-.cont{
+.content{
 	position: relative;
 	top: 50vh;
 	left: 50vw;
