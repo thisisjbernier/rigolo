@@ -14,9 +14,11 @@
 
 .topbar{
 	background: #2c3e50;
-	position: relative;
-	text-align: center;
-	color: #ffffff;	
+}
+
+.topbar a{
+	heigh: 1.5 rem;
+	width: 1.5 rem;
 }
 
 .content{
