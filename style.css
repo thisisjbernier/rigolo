@@ -18,19 +18,17 @@
 
 .topbar h1{
 	color: #ffffff;
-	float: center;
+	text-align: center;
 }
 
 .topbar a{
 	float: right;
 }
-
 .git{
-	position: relative;
-	left: 100vw;
-	height: 1 px;
-	width: 1 px;
+	height: 1em;
+	width: 1em;
 }
+
 
 .content{
 	position: relative;
