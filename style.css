@@ -16,9 +16,20 @@
 	background: #2c3e50;
 }
 
+.topbar h1{
+	color: #ffffff;
+	float: center;
+}
+
 .topbar a{
-	heigh: 1.5 rem;
-	width: 1.5 rem;
+	float: right;
+}
+
+.git{
+	position: relative;
+	left: 100vw;
+	height: 1 px;
+	width: 1 px;
 }
 
 .content{
