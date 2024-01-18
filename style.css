@@ -13,10 +13,12 @@
 }
 
 .topbar{
+	overflow: hidden;
 	background: #2c3e50;
 }
 
 .topbar h1{
+	float: left;
 	color: #ffffff;
 	text-align: center;
 }
@@ -24,9 +26,9 @@
 .topbar a{
 	float: right;
 }
-.git{
-	height: 1em;
-	width: 1em;
+.topbar a img{
+	width: 40px;
+    height: 40px;
 }
 
 
