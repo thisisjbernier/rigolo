@@ -52,5 +52,7 @@
 }
 
 .f {
-	float: right;s
+	float: right;
+	width: 120px;
+  	height: 60px;
 }
