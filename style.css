@@ -9,6 +9,9 @@
 .page{
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	overflow: hidden;
 }
 
@@ -27,6 +30,7 @@
 .topbar a{
 	float: right;
 }
+
 .topbar a img{
     width: 42px;
     height: 42px;
@@ -36,9 +40,6 @@
 .content{
 	position: absolute;
 	padding: 10px;
-	top: 50vh;
-	left: 50vw;
-	transform: translate(-50%, -50%);
 	width: 75vw;
 	height: 90vh;
 	background: #ffffff;
