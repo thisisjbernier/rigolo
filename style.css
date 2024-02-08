@@ -53,6 +53,6 @@
 
 .f {
 	float: right;
-	width: 120px;
-  	height: 60px;
+	width: 450px;
+	aspect-ratio: auto 1045 / 645
 }
