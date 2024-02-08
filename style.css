@@ -34,11 +34,13 @@
 
 
 .content{
-	position: relative;
+	position: absolute;
 	padding: 10px;
-	margin: auto;
-	width: 800px;
-	height: 429px;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	width: 75vw;
+	height: 90vh;
 	background: #ffffff;
 	overflow:hidden;
 	border-radius: 10px;
@@ -51,8 +53,8 @@
 }
 
 .f {
+	border-radius: 5px;
 	float: right;
 	width: 450px;
-	border-radius: 5px;
 	aspect-ratio: auto 1045 / 645
 }
