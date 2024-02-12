@@ -8,7 +8,7 @@
 
 .page{
 	background: linear-gradient(120deg,#3498db, #1abc9c);
-	height: 100vh;
+	height: 130%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,6 +18,9 @@
 .topbar{
 	overflow: hidden;
 	height: 42px;
+	z-index: 10000;
+   	position: fixed;
+	width: 100%
 	background: #2c3e50;
 }
 
@@ -66,7 +69,7 @@
 	grid-template-rows: 1fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-	width: 100vw;
+	width: 100%;
 	background: #2c3e50;
 	color: #ffffff;
 	text-align: center;
