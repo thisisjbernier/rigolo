@@ -20,7 +20,7 @@
 	height: 42px;
 	z-index: 10000;
    	position: fixed;
-	width: 100%
+	width: 100%;
 	background: #2c3e50;
 }
 
@@ -60,7 +60,7 @@
 	border-radius: 5px;
 	float: right;
 	width: 450px;
-	aspect-ratio: auto 1045 / 645
+	aspect-ratio: auto 1045 / 645;
 }
 
 .legal {
