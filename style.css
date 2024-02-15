@@ -95,19 +95,22 @@
 	grid-row-gap: 0px;
 	width: 100%;
 	background: #2c3e50;
-	color: #ffffff;
-	text-align: center;
-
 }
 
 .L1 {
 	grid-area: 1 / 2 / 2 / 3;
+	color: #ffffff;
+	text-align: center;
 }
 
 .L2 {
 	grid-area: 1 / 3 / 2 / 4;
+	color: #ffffff;
+	text-align: center;
 }
 
 .L3 {
 	grid-area: 1 / 4 / 2 / 5;
+	color: #ffffff;
+	text-align: center;
 }
