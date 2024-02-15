@@ -16,8 +16,11 @@
 }
 
 .dummy{
+	top: 0px
 	height: 42px;
 	width: 100%;
+	color: #ffffff;
+	text-align: center;
 	background: #2c3e50;
 }
 
