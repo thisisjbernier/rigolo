@@ -99,16 +99,17 @@
 
 .L1 {
 	grid-area: 1 / 2 / 2 / 3;
-	color: #ffffff;
 	text-align: center;
 }
 
 .L2 {
 	grid-area: 1 / 3 / 2 / 4;
+	text-align: center;
 }
 
 .L3 {
 	grid-area: 1 / 4 / 2 / 5;
+	text-align: center;
 }
 
  .slnk{
