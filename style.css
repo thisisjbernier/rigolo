@@ -53,8 +53,8 @@
 .content{
 	position: absolute;
 	padding: 10px;
-	width: 75vw;
-	height: 90vh;
+	width: 75%;
+	height: 95%;
 	background: #ffffff;
 	overflow:hidden;
 	border-radius: 10px;
@@ -69,14 +69,14 @@
 .s1 {
 	border-radius: 5px;
 	float: right;
-	width: 450px;
+	width: 60%;
 	aspect-ratio: auto 1045 / 645;
 }
 
 .bp {
 	border-radius: 5px;
 	float: right;
-	width: 450px;
+	width: 50%;
 	aspect-ratio: auto 1159 / 974;
 }
 
