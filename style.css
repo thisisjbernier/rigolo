@@ -75,9 +75,16 @@
 
 .bp {
 	border-radius: 5px;
-	float: right;
+	float: left;
 	width: 50%;
 	aspect-ratio: auto 1159 / 974;
+}
+
+.fc {
+	border-radius: 5px;
+	float: right;
+	width: 50%;
+	aspect-ratio: auto 300 / 168;
 }
 
 .legal {
