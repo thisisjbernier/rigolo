@@ -66,11 +66,18 @@
 	font-weight: bolder;
 }
 
-.f {
+.s1 {
 	border-radius: 5px;
 	float: right;
 	width: 450px;
 	aspect-ratio: auto 1045 / 645;
+}
+
+.bp {
+	border-radius: 5px;
+	float: right;
+	width: 450px;
+	aspect-ratio: auto 1159 / 974;
 }
 
 .legal {
