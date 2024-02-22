@@ -6,6 +6,10 @@
 	font-family: "Poppins", sans-serif;
 }
 
+body {
+	background: #2c3e50;
+}
+
 .page{
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	height: 150vh;
