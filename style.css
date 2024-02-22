@@ -8,7 +8,7 @@
 
 .page{
 	background: linear-gradient(120deg,#3498db, #1abc9c);
-	height: 110vh;
+	height: 150vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -54,7 +54,7 @@
 	position: absolute;
 	padding: 10px;
 	width: 75%;
-	height: 95%;
+	height: 125%;
 	background: #ffffff;
 	overflow:hidden;
 	border-radius: 10px;
