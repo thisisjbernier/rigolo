@@ -36,23 +36,67 @@ body {
    	position: fixed;
 	width: 100%;
 	background: #2c3e50;
+	display: grid;
+	grid-template-columns: 1% 42px 1fr 50% 1fr 42px 1%;
+	grid-template-rows: 42px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+@keyframes topbarGrow{
+    from{
+        height: 35px;
+        width: 35px;
+
+    }
+    to{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@keyframes topbarGrow{
+    from{
+        height: 40px;
+        width: 40px;
+
+    }
+    to{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.div { grid-area: 1 / 6 / 2 / 7; }
+
 }
 
 .topbar h1{
-	float: left;
 	color: #ffffff;
 	text-align: center;
+	grid-area: 1 / 4 / 2 / 5;
 }
 
 .topbar a{
-	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: 1 / 2 / 2 / 3;
 }
 
 .topbar a img{
-    width: 42px;
-    height: 42px;
+    animation-duration: 0.25s;
+    animation-name: topbarGrowback;
+    width: 35px;
+    height: 35px;
 }
 
+.topbar a img:hover{
+    animation-duration: 0.25s;
+    animation-name: topbarGrow;
+    width: 40px;
+    height: 40px;
+}
 
 .content{
 	position: absolute;
