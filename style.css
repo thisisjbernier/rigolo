@@ -68,8 +68,23 @@ body {
     }
 }
 
-.div {
+.topbar div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	grid-area: 1 / 2 / 2 / 3;
+}
+
+.topbar div button{
+	background: transparent;
+	color: #ffffff;
+	font-size: 1em;
+	border-radius: 10px;
+	border-width: 2.5px;
+	border-color: #ffffff;
+	width: 35px;
+    	height: 35px;
+	border-style: solid;
 }
 
 .topbar h1{
