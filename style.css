@@ -46,13 +46,13 @@ body {
 
 @keyframes topbarGrow{
     from{
-	font-size: 1em;
+		font-size: 1em;
         height: 35px;
         width: 35px;
 
     }
     to{
-	font-size: 1.25em;
+		font-size: 1.25em;
         height: 40px;
         width: 40px;
     }
@@ -60,13 +60,13 @@ body {
 
 @keyframes topbarGrowback{
     from{
-	font-size: 1.25em;
+		font-size: 1.25em;
         height: 40px;
         width: 40px;
 
     }
     to{
-	font-size: 1em;
+		font-size: 1em;
         height: 35px;
         width: 35px;
     }
@@ -87,23 +87,24 @@ body {
 	border-width: 2.5px;
 	border-color: #ffffff;
 	width: 35px;
-    	height: 35px;
+    height: 35px;
 	border-style: solid;
 }
 
-.topbar div button{
-	background: transparent;
-	color: #ffffff;
-	font-size: 1em;
-	border-radius: 10px;
-	border-width: 2.5px;
-	border-color: #ffffff;
-	width: 35px;
-    	height: 35px;
-	border-style: solid;
+.topbar div button:hover{
+	animation-duration: 0.25s;
+    animation-name: topbarGrow;
+    width: 40px;
+    height: 40px;
+	font-size: 1.25em;
 }
 
 .topbar div button:active{
+	animation-duration: 0.25s;
+    animation-name: topbarGrowback;
+    width: 35px;
+    height: 35px;
+	font-size: 1em;
 	transform: rotate(90deg);
 }
 
