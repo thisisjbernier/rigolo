@@ -65,7 +65,7 @@
 	grid-area: 1 / 2 / 2 / 3;
 }
 
-.topbar .nav .menbtn{
+.topbar .nav label{
 	background: transparent;
 	color: #ffffff;
 	font-size: 1em;
@@ -76,13 +76,13 @@
     height: 35px;
 	border-style: solid;
 }
-.topbar .nav .menbtn input{
+.topbar .nav label input{
     opacity: 0;
     width: 35px;
     height: 35px;
 }
 
-.topbar .nav .menbtn:hover{
+.topbar .nav label:hover{
     animation-duration: 0.25s;
     animation-name: topbarGrow;
     width: 40px;
@@ -90,7 +90,7 @@
     font-size: 1.25em;
 }
 
-.topbar .nav .menbtn input:checked{
+.topbar .nav label input:checked{
     animation-duration: 0.25s;
     animation-name: topbarGrowback;
     width: 35px;
