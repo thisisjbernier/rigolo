@@ -65,7 +65,7 @@
 	grid-area: 1 / 2 / 2 / 3;
 }
 
-.topbar div button{
+.topbar .nav .menbtn{
 	background: transparent;
 	color: #ffffff;
 	font-size: 1em;
@@ -76,22 +76,27 @@
     height: 35px;
 	border-style: solid;
 }
+.topbar .nav .menbtn input{
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+}
 
-.topbar div button:hover{
-	animation-duration: 0.25s;
+.topbar .nav .menbtn:hover{
+    animation-duration: 0.25s;
     animation-name: topbarGrow;
     width: 40px;
     height: 40px;
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
-.topbar div button:active{
-	animation-duration: 0.25s;
+.topbar .nav .menbtn input:checked{
+    animation-duration: 0.25s;
     animation-name: topbarGrowback;
     width: 35px;
     height: 35px;
-	font-size: 1em;
-	transform: rotate(90deg);
+    font-size: 1em;
+    transform: rotate(90deg);
 }
 
 .topbar h1{
