@@ -58,14 +58,16 @@
     }
 }
 
-.topbar div {
+.topbar .nav{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	grid-area: 1 / 2 / 2 / 3;
 }
 
-.topbar .nav label{
+.topbar .nav button{
+	animation-duration: 0.25s;
+    animation-name: topbarGrowback;
 	background: transparent;
 	color: #ffffff;
 	font-size: 1em;
@@ -76,13 +78,8 @@
     height: 35px;
 	border-style: solid;
 }
-.topbar .nav label input{
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
 
-.topbar .nav label:hover{
+.topbar .nav button:hover{
     animation-duration: 0.25s;
     animation-name: topbarGrow;
     width: 40px;
@@ -90,13 +87,21 @@
     font-size: 1.25em;
 }
 
-.topbar .nav label input:checked{
-    animation-duration: 0.25s;
+.topbar .nav button:active{
+	animation-duration: 0.25s;
     animation-name: topbarGrowback;
-    width: 35px;
+	width: 35px;
     height: 35px;
-    font-size: 1em;
+	font-size: 1em;
+}
+.topbar .nav button:active p{
     transform: rotate(90deg);
+	transition: transform 0.2s ease;
+}
+
+.topbar .nav button p{
+    transform: rotate(0deg);
+	transition: transform 0.2s ease;
 }
 
 .topbar h1{
