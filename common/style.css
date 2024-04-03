@@ -32,13 +32,13 @@
 
 @keyframes topbarGrow{
     from{
-		font-size: 1em;
+	font-size: 1em;
         height: 35px;
         width: 35px;
 
     }
     to{
-		font-size: 1.25em;
+	font-size: 1.25em;
         height: 40px;
         width: 40px;
     }
@@ -46,13 +46,13 @@
 
 @keyframes topbarGrowback{
     from{
-		font-size: 1.25em;
+	font-size: 1.25em;
         height: 40px;
         width: 40px;
 
     }
     to{
-		font-size: 1em;
+	font-size: 1em;
         height: 35px;
         width: 35px;
     }
@@ -67,7 +67,7 @@
 
 .topbar .nav button{
 	animation-duration: 0.25s;
-    animation-name: topbarGrowback;
+    	animation-name: topbarGrowback;
 	background: transparent;
 	color: #ffffff;
 	font-size: 1em;
@@ -75,33 +75,24 @@
 	border-width: 2.5px;
 	border-color: #ffffff;
 	width: 35px;
-    height: 35px;
+    	height: 35px;
 	border-style: solid;
 }
 
 .topbar .nav button:hover{
-    animation-duration: 0.25s;
-    animation-name: topbarGrow;
-    width: 40px;
-    height: 40px;
-    font-size: 1.25em;
+	animation-duration: 0.25s;
+	animation-name: topbarGrow;
+	width: 40px;
+	height: 40px;
+	font-size: 1.25em;
 }
 
 .topbar .nav button:active{
 	animation-duration: 0.25s;
-    animation-name: topbarGrowback;
+	animation-name: topbarGrowback;
 	width: 35px;
-    height: 35px;
+	height: 35px;
 	font-size: 1em;
-}
-.topbar .nav button:active p{
-    transform: rotate(90deg);
-	transition: transform 0.2s ease;
-}
-
-.topbar .nav button p{
-    transform: rotate(0deg);
-	transition: transform 0.2s ease;
 }
 
 .topbar h1{
