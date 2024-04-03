@@ -95,6 +95,32 @@
 	font-size: 1em;
 }
 
+.navmen {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.navmen a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navmen a:hover {
+  color: #f1f1f1;
+}
+
 .topbar h1{
 	color: #ffffff;
 	text-align: center;
@@ -123,6 +149,7 @@
 }
 
 .legal {
+	z-index: 10000;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 1fr;
