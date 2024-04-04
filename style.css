@@ -23,28 +23,3 @@ body {
 	background-clip:padding-box;
 	box-shadow: 15px 15px 25px rgba(0,0,0,0.25);	
 }
-
-.bold {
-	font-weight: bolder;
-}
-
-.s1 {
-	border-radius: 5px;
-	float: right;
-	width: 60%;
-	aspect-ratio: auto 1045 / 645;
-}
-
-.bp {
-	border-radius: 95px;
-	float: left;
-	width: 50%;
-	aspect-ratio: auto 1159 / 974;
-}
-
-.fc {
-	border-radius: 5px;
-	float: right;
-	width: 50%;
-	aspect-ratio: auto 300 / 168;
-}
