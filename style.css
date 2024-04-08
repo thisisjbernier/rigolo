@@ -3,7 +3,7 @@ body {
 }
 
 .page{
-        position: relative;
+    position: relative;
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	display: flex;
 	justify-content: center;
@@ -72,30 +72,49 @@ body {
 }
 
 .a1 {
+	display: flex;
+	align-items: center;
 	width: 1;
 	height: 35px;
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	border-radius: 50px;
 	grid-area: 1 / 2 / 2 / 3;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
 }
 
 .a2 {
+	display: flex;
+	align-items: center;
 	width: 1;
 	height: 35px;
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	border-radius: 50px;
 	grid-area: 1 / 4 / 2 / 5;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
 }
 
 .a3 {
+	display: flex;
+	align-items: center;
 	width: 1;
 	height: 35px;
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	border-radius: 50px;
 	grid-area: 1 / 6 / 2 / 7;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
 }
 
 .lnks div a img{
 	aspect-ratio: 1/1;
 	width: 30px;
+	float: left;
 }
