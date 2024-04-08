@@ -31,6 +31,7 @@ body {
   width: 35%;
   height: 1;
   float: left;
+  margin-right: 6%;
   margin-left: 8%;
 }
 
@@ -41,9 +42,60 @@ body {
   width: 35%;
   height: 1;
   float: right;
+  margin-left: 6%;
   margin-right: 8%;
 }
 
 .subcard {
   padding: 2px 16px;
+}
+
+.content h3 {
+	width: 100%;
+	text-align: center;
+}
+
+.lnks {
+	width: 100%;
+}
+
+.lnks h4 {
+	width: 100%;
+	text-align: center;
+}
+.lnks div {
+	display: grid;
+	grid-template-columns: 1% repeat(5, 1fr) 1%;
+	grid-template-rows: 35px;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.a1 {
+	width: 1;
+	height: 35px;
+	background: linear-gradient(120deg,#3498db, #1abc9c);
+	border-radius: 50px;
+	grid-area: 1 / 2 / 2 / 3;
+}
+
+.a2 {
+	width: 1;
+	height: 35px;
+	background: linear-gradient(120deg,#3498db, #1abc9c);
+	border-radius: 50px;
+	grid-area: 1 / 4 / 2 / 5;
+}
+
+.a3 {
+	width: 1;
+	height: 35px;
+	background: linear-gradient(120deg,#3498db, #1abc9c);
+	border-radius: 50px;
+	grid-area: 1 / 6 / 2 / 7;
+}
+
+.lnks div a img{
+	aspect-ratio: 1/1;
+	width: 30px;
 }
