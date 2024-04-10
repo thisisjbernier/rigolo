@@ -3,7 +3,7 @@ body {
 }
 
 .page{
-        position: relative;
+    position: relative;
 	background: linear-gradient(120deg,#3498db, #1abc9c);
 	display: flex;
 	justify-content: center;
@@ -14,12 +14,67 @@ body {
 
 .content{
 	position: relative;
-	padding: 10px;
+	padding: 50px;
 	width: 75%;
 	height: 1;
 	background: #ffffff;
 	overflow:hidden;
 	border-radius: 10px;
 	background-clip:padding-box;
-	box-shadow: 15px 15px 25px rgba(0,0,0,0.25);	
+	box-shadow: 15px 15px 25px rgba(0,0,0,0.25);
+	display: grid;
+	grid-template-columns: 40% 20% 40%;
+	grid-template-rows: 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.player{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+.player button{
+	height: 75px;
+	width: 75px;
+	margin: auto;
+	background: #0000;
+	border-radius: 10px;
+	border-color: #2c3e50;
+	border-width: 3px;
+	text-align: center;
+	font-size: 2em;
+	transition: 0.5s ease;
+}
+
+.player button:hover{
+	background: #bdc3c7;
+}
+
+.texareaarea{
+	height: 200px;
+	grid-area: 1 / 2 / 2 / 3;
+}
+
+.bot{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: 1 / 3 / 2 / 4;
+}
+
+.bot button{
+	height: 75px;
+	width: 75px;
+	margin: auto;
+	background: #0000;
+	border-radius: 10px;
+	border-color: #2c3e50;
+	border-width: 3px;
+	text-align: center;
+	font-size: 2em;
 }
