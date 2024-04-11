@@ -72,3 +72,14 @@ function choice(plrmove){
     gamelock = true
     document.getElementById("score").textContent = plrscore + " | " + botscore
 }
+
+function reset(){
+    document.getElementById("rock").style.display = "block"
+    document.getElementById("paper").style.display = "block" 
+    document.getElementById("scissors").style.display = "block"
+    document.getElementById("botrock").style.display = "block"
+    document.getElementById("botpaper").style.display = "block"
+    document.getElementById("botscissors").style.display = "block"
+    document.getElementById("wtext").textContent = " "
+    gamelock = false
+}
