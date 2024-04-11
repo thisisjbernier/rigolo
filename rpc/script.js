@@ -1,10 +1,12 @@
 let plroptions = [document.getElementsById("rock"), document.getElementsById("paper"), document.getElementsById("scissors")]
 let botoptions = [document.getElementsById("botrock"), document.getElementsById("botpaper"), document.getElementsById("botscissors")]
+var gamelock = false
 var plrscore = 0
 var botscore = 0
 
 function choice(plrmove) {
     // Code pas top mais azul
+    if (gamelock == true){return}
     var botmove = Math.floor((Math.random() * 3) + 1)
 
     // Fait disparaître les élements non selectionner du joueur :)
@@ -69,5 +71,6 @@ function choice(plrmove) {
         botscore += 1
     }
 
+    gamelock = true
     document.getElementById("score").textContent = plrscore + " | " + botscore
 }
