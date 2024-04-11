@@ -4,7 +4,7 @@ var gamelock = false
 var plrscore = 0
 var botscore = 0
 
-function choice(plrmove) {
+function choice(plrmove){
     // Code pas top mais azul
     if (gamelock == true){return}
     var botmove = Math.floor((Math.random() * 3) + 1)
