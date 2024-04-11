@@ -70,10 +70,12 @@ function choice(plrmove){
     }
 
     gamelock = true
+    document.getElementById("replay").style.display = "block"
     document.getElementById("score").textContent = plrscore + " | " + botscore
 }
 
 function reset(){
+    document.getElementById("replay").style.display = "none"
     document.getElementById("rock").style.display = "block"
     document.getElementById("paper").style.display = "block" 
     document.getElementById("scissors").style.display = "block"
