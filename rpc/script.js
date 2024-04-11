@@ -1,5 +1,3 @@
-let plroptions = [document.getElementById("rock"), document.getElementById("paper"), document.getElementById("scissors")]
-let botoptions = [document.getElementById("botrock"), document.getElementById("botpaper"), document.getElementById("botscissors")]
 var gamelock = false
 var plrscore = 0
 var botscore = 0
@@ -11,30 +9,30 @@ function choice(plrmove){
 
     // Fait disparaître les élements non selectionner du joueur :)
     if (plrmove == 1){
-        plroptions[1].style.display = "none"
-        plroptions[2].style.display = "none" 
+        document.getElementById("paper").style.display = "none"
+        document.getElementById("scissors").style.display = "none" 
     }
     else if (plrmove == 2) {
-        plroptions[0].style.display = "none"
-        plroptions[2].style.display = "none" 
+        document.getElementById("rock").style.display = "none"
+        document.getElementById("scissors").style.display = "none" 
     }
     else if (plrmove == 3) {
-        plroptions[0].style.display = "none"
-        plroptions[1].style.display = "none" 
+        document.getElementById("rock").style.display = "none"
+        document.getElementById("paper").style.display = "none" 
     }
 
     // Fait disparaître les élements non selectionner du bot :)
     if (botmove == 1){
-        botoptions[1].style.display = "none"
-        botoptions[2].style.display = "none" 
+        document.getElementById("botpaper").style.display = "none"
+        document.getElementById("botscissors").style.display = "none" 
     }
     else if (botmove == 2) {
-        botoptions[0].style.display = "none"
-        botoptions[2].style.display = "none" 
+        document.getElementById("botrock").style.display = "none"
+        document.getElementById("botscissors").style.display = "none" 
     }
     else if (botmove == 3) {
-        botoptions[0].style.display = "none"
-        botoptions[1].style.display = "none" 
+        document.getElementById("botrock").style.display = "none"
+        document.getElementById("botpaper").style.display = "none" 
     }
     
 // La logique du jeux codé nullement mais genre vrm
