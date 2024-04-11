@@ -1,5 +1,5 @@
-let plroptions = [document.getElementsById("rock"), document.getElementsById("paper"), document.getElementsById("scissors")]
-let botoptions = [document.getElementsById("botrock"), document.getElementsById("botpaper"), document.getElementsById("botscissors")]
+let plroptions = [document.getElementById("rock"), document.getElementById("paper"), document.getElementById("scissors")]
+let botoptions = [document.getElementById("botrock"), document.getElementById("botpaper"), document.getElementById("botscissors")]
 var gamelock = false
 var plrscore = 0
 var botscore = 0
