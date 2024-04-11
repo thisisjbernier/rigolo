@@ -1,6 +1,5 @@
 var plrscore = 0
 var botscore = 0
-document.getElementById("score").textContent = plrscore + " | " + botscore
 
 function choice(plrmove) {
     var botmove = Math.floor((Math.random() * 3) + 1)
