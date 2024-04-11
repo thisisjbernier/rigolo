@@ -1,5 +1,5 @@
-let plroptions = [document.getElementsByClassName("rock"), document.getElementsByClassName("paper"), document.getElementsByClassName("scissors")]
-let botoptions = [document.getElementsByClassName("botrock"), document.getElementsByClassName("botpaper"), document.getElementsByClassName("botscissors")]
+let plroptions = [document.getElementsById("rock"), document.getElementsById("paper"), document.getElementsById("scissors")]
+let botoptions = [document.getElementsById("botrock"), document.getElementsById("botpaper"), document.getElementsById("botscissors")]
 var plrscore = 0
 var botscore = 0
 var
