@@ -3,7 +3,7 @@ var botscore = 0
 document.getElementById("score").textContent = plrscore + " | " + botscore
 
 function choice(plrmove) {
-    var botmove = let x = Math.floor((Math.random() * 3) + 1)
+    var botmove = Math.floor((Math.random() * 3) + 1)
     // Code pas top mais azul
     if (plrmove == 1 && botmove == 1) {
         console.log("Tie")
