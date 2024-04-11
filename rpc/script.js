@@ -2,7 +2,6 @@ let plroptions = [document.getElementsById("rock"), document.getElementsById("pa
 let botoptions = [document.getElementsById("botrock"), document.getElementsById("botpaper"), document.getElementsById("botscissors")]
 var plrscore = 0
 var botscore = 0
-var
 
 function choice(plrmove) {
     // Code pas top mais azul
