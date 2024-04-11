@@ -42,6 +42,28 @@ body {
 	grid-area: 1 / 2 / 2 / 3;
 }
 
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.replay {
+	height: 50px;
+	width: 125px;
+	font-size: 1.5em;
+	background: #0000;
+	border-radius: 10px;
+	border-color: #2c3e50;
+	border-width: 3px;
+	text-align: center;
+	transition: 0.5s ease;
+}
+
+.replay:hover {
+	background: #bdc3c7;
+}
+
 .bottitle{
 	text-align: center;
 	grid-area: 1 / 3 / 2 / 4;
